@@ -1,3 +1,4 @@
+
 .box {
     background-color: #ccc;
     display: flex;
@@ -9,4 +10,14 @@
 
 p {
     font-size: 100px;
+}
+
+.btn {
+    background-color: $primaryColor;
+    min-width: 100px;
+    padding: 0 1em;
+    
+    &:hover {
+        @include buttonHover;
+    }
 }
